@@ -10,7 +10,7 @@ project Universal_Text_File is
 
    type Kind_ID is ("relocatable", "static", "static-pic");
    Kind : Kind_ID :=
-     external ("PRAGMARC_LIBRARY_TYPE", external ("LIBRARY_TYPE", "static"));
+     external ("UNIVERSAL_TEXT_FILE_LIBRARY_TYPE", external ("LIBRARY_TYPE", "static"));
    for Library_Kind use Kind;
 
    package Compiler is
