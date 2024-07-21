@@ -1,4 +1,6 @@
 # Universal Text File Format
+[![Alire](https://img.shields.io/endpoint?url=https://alire.ada.dev/badges/universal_text_file.json)](https://alire.ada.dev/crates/universal_text_file.html)
+
 Proposed universal format for Unicode text files
 
 Here I propose a universal format for Unicode text files, specified by its Ada implementation. Some features of the format are
